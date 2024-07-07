@@ -2,6 +2,9 @@ import { IsArray, IsNumber, IsOptional, IsString } from 'class-validator';
 
 export class UpdateOrderDto {
   @IsString()
+  id: string;
+
+  @IsString()
   @IsOptional()
   customerId?: string;
 

@@ -116,8 +116,7 @@ This project uses Jest for unit and integration tests. Supertest is used for tes
 
 ### Webhooks
 
-- **POST /webhook/door-dash**: Receives orders from DoorDash.
-- **POST /webhook/uber-eats**: Receives orders from UberEats.
+- \*\*POST /webhook/orders: Receives orders from Webhook.
 
 ### Orders
 
